@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT (example)"                                 #计可证类型文件就是同级别下的那个LICENSE
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "liujh" => "449329301@qq.com" }
+  spec.author             = { "liujh" => "449329301@qq.com" }      #GitHub 用户名
   # Or just: spec.author    = "liujh"
   # spec.authors            = { "liujh" => "449329301@qq.com" }
   # spec.social_media_url   = "https://twitter.com/liujh"
@@ -63,7 +63,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
+  # spec.platform     = :ios            #使用平台
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/LJHDome.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "http://EXAMPLE/LJHDome.git", :tag => "#{spec.version}" }     #GitHub clone地址
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,10 +90,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}"  #你要提供的文件
+  spec.exclude_files = "Classes/Exclude"                #需要排除的文件
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # spec.public_header_files = "Classes/**/*.h"         #暴露的公共头文件
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -103,7 +103,7 @@ Pod::Spec.new do |spec|
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
   #
-
+  # 图片资源在这里设置
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
 
