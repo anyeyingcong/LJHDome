@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LJHDome"  #仓库名称
-  spec.version      = "0.0.1"    #版本号
+  spec.version      = "1.0.0"    #版本号
   spec.summary      = "A short description of LJHDome." #简短介绍
 
   # This description is used to generate tags and improve search results.
